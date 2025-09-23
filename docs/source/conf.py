@@ -1,35 +1,20 @@
-# Configuration file for the Sphinx documentation builder.
-
-# -- Project information
-
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
-
-release = '0.1'
-version = '0.1.0'
-
-# -- General configuration
+project = "scMultiNet Tutorial"
+author = "Cheng Guo"
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    "myst_nb",
+    "sphinx_copybutton",
+    "sphinx_design",
 ]
 
-intersphinx_mapping = {
-    'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+# 不在 RTD 上执行 notebook，只展示已有输出
+nb_execution_mode = "off"
+
+templates_path = ["_templates"]
+exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
+
+html_theme = "sphinx_rtd_theme"
+html_static_path = ["_static"]
+html_theme_options = {
+    "navigation_depth": 3,
 }
-intersphinx_disabled_domains = ['std']
-
-templates_path = ['_templates']
-
-# -- Options for HTML output
-
-html_theme = 'sphinx_rtd_theme'
-
-# -- Options for EPUB output
-epub_show_urls = 'footnote'
