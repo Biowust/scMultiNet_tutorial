@@ -1,6 +1,6 @@
 project = "scMultiNet Tutorial"
 author = "Cheng Guo"
-copyright = "Cheng Guo"
+copyright = "2025, Cheng Guo"
 extensions = [
     "myst_nb",
     "sphinx_copybutton",
