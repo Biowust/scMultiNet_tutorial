@@ -1,9 +1,9 @@
 # Installation
-**scMultiNet**
-A deep adversarial network model for multi-task analysis of single-cell omics data
+**scMultiNet**: A deep adversarial network model for multi-task analysis of single-cell omics data
+GitHub Link: https://github.com/Biowust/scMultiNet
 ## Environment requirements:
 scMultiNet requires Python 3.8.x and Pytorch.
-We have tested the GPU version on the NVIDIA RTX 2080 Ti platform with CUDA version 11.1.
+We have tested the GPU version on the **NVIDIA RTX 2080 Ti** platform with **CUDA version 11.1**.
 For example, we suggest to install the dependencies in a conda environment.
 ### Conda Environment
 ```
