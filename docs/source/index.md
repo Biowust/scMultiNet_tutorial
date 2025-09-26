@@ -1,7 +1,7 @@
-# scMultiNet 教程
+# scMultiNet
 
-欢迎来到 **scMultiNet Tutorial**！  
-这里你可以找到安装方法、教程示例以及常见问题解答。
+Welcome to  **scMultiNet Tutorial**！  
+Here you can find installation instructions, tutorial examples.
 
 ```{toctree}
 :maxdepth: 1
