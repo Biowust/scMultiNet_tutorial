@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+scMultiNet Tutorial
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repository includes the tutorial for **scMultiNet**.
 
 Read the tutorial here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://scmultinet-tutorial.readthedocs.io/en/latest/
